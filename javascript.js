@@ -41,7 +41,6 @@ const whoWins = (pc, user) => {
 
 const game = () => {
     for (i = 0; i < 5; i++) {
-
         whoWins(computerPlay(), userPlay);
     }
 }
